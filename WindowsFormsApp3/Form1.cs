@@ -428,7 +428,7 @@ namespace WindowsFormsApp3
         public void materialRaisedButton15_Click(object sender, EventArgs e)
         {
             WebClient client = new WebClient();
-            string getString = client.DownloadString("https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_omtc0xbdLuRGmf9k8sKrn2kSgzX2UP6rZkYtJUOa&currencies=TRY&base_currency=EUR");
+            string getString = client.DownloadString("https://api.freecurrencyapi.com/v1/latest?apikey=(apianahtariniz)&currencies=TRY&base_currency=EUR");
             JObject GetData = JObject.Parse(getString);
             string eurotr = (string)GetData["data"]["TRY"];
             yuveurotr = Math.Round(Convert.ToDouble(eurotr), 2);
@@ -445,7 +445,7 @@ namespace WindowsFormsApp3
             
             
             WebClient client = new WebClient();
-            string getString = client.DownloadString("https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_omtc0xbdLuRGmf9k8sKrn2kSgzX2UP6rZkYtJUOa&currencies=TRY");
+            string getString = client.DownloadString("https://api.freecurrencyapi.com/v1/latest?apikey=(apianahtariniz)&currencies=TRY");
             JObject GetData = JObject.Parse(getString);          
             string dolartr = (string)GetData["data"]["TRY"];
             yuvdolartr = Math.Round(Convert.ToDouble(dolartr), 2);
