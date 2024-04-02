@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp3
+namespace WindowsFormsApp3
 {
     partial class Form1
     {
@@ -65,12 +65,11 @@
             this.materialRaisedButton9 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton8 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialRaisedButton12 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton11 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -81,12 +80,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.materialRadioButton2 = new MaterialSkin.Controls.MaterialRadioButton();
             this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.materialRaisedButton15 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton14 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
@@ -101,13 +101,15 @@
             this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
-            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -142,7 +144,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightGreen;
+            this.panel1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel1.Controls.Add(this.materialLabel2);
             this.panel1.Controls.Add(this.materialRaisedButton1);
             this.panel1.Controls.Add(this.richTextBox1);
@@ -189,7 +191,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightGreen;
+            this.panel2.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel2.Controls.Add(this.materialRadioButton9);
             this.panel2.Controls.Add(this.materialRadioButton8);
             this.panel2.Controls.Add(this.materialRadioButton7);
@@ -369,7 +371,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.LightGreen;
+            this.panel3.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel3.Controls.Add(this.materialFlatButton1);
             this.panel3.Controls.Add(this.materialRaisedButton7);
             this.panel3.Controls.Add(this.materialRaisedButton6);
@@ -520,7 +522,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.LightGreen;
+            this.panel4.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel4.Controls.Add(this.button9);
             this.panel4.Location = new System.Drawing.Point(6, 233);
             this.panel4.Name = "panel4";
@@ -540,7 +542,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.LightGreen;
+            this.panel5.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel5.Controls.Add(this.materialRaisedButton10);
             this.panel5.Controls.Add(this.materialRaisedButton9);
             this.panel5.Controls.Add(this.materialRaisedButton8);
@@ -590,7 +592,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.LightGreen;
+            this.panel6.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel6.Controls.Add(this.materialRaisedButton12);
             this.panel6.Controls.Add(this.materialRaisedButton11);
             this.panel6.Controls.Add(this.progressBar1);
@@ -598,19 +600,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(214, 141);
             this.panel6.TabIndex = 15;
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.Location = new System.Drawing.Point(387, 211);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(129, 19);
-            this.materialLabel3.TabIndex = 5;
-            this.materialLabel3.Text = "Yüklenme Çubuğu";
             // 
             // materialRaisedButton12
             // 
@@ -646,9 +635,22 @@
             this.progressBar1.TabIndex = 0;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.Location = new System.Drawing.Point(396, 211);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(129, 19);
+            this.materialLabel3.TabIndex = 5;
+            this.materialLabel3.Text = "Yüklenme Çubuğu";
+            // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.LightGreen;
+            this.panel7.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel7.Controls.Add(this.button1);
             this.panel7.Controls.Add(this.materialLabel5);
             this.panel7.Controls.Add(this.materialLabel4);
@@ -660,19 +662,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(328, 141);
             this.panel7.TabIndex = 16;
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(620, 211);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(241, 19);
-            this.materialLabel1.TabIndex = 0;
-            this.materialLabel1.Text = "Para Birimi Dönüştürücüsü (bozuk)";
             // 
             // button1
             // 
@@ -815,12 +804,24 @@
             this.materialSingleLineTextField1.Text = "1.Birimi yaz";
             this.materialSingleLineTextField1.UseSystemPasswordChar = false;
             // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(620, 211);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(241, 19);
+            this.materialLabel1.TabIndex = 0;
+            this.materialLabel1.Text = "Para Birimi Dönüştürücüsü (bozuk)";
+            // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.LightGreen;
+            this.panel8.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel8.Controls.Add(this.materialRaisedButton15);
             this.panel8.Controls.Add(this.materialRaisedButton14);
-            this.panel8.Controls.Add(this.materialLabel8);
             this.panel8.Controls.Add(this.materialLabel7);
             this.panel8.Controls.Add(this.materialLabel6);
             this.panel8.Location = new System.Drawing.Point(425, 36);
@@ -854,26 +855,13 @@
             this.materialRaisedButton14.UseVisualStyleBackColor = true;
             this.materialRaisedButton14.Click += new System.EventHandler(this.materialRaisedButton14_Click);
             // 
-            // materialLabel8
-            // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel8.Location = new System.Drawing.Point(12, 11);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(190, 19);
-            this.materialLabel8.TabIndex = 3;
-            this.materialLabel8.Text = "Güncel Dolar ve Euro fiyatı:";
-            // 
             // materialLabel7
             // 
             this.materialLabel7.AutoSize = true;
             this.materialLabel7.Depth = 0;
             this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel7.Location = new System.Drawing.Point(211, 71);
+            this.materialLabel7.Location = new System.Drawing.Point(202, 45);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
             this.materialLabel7.Size = new System.Drawing.Size(68, 19);
@@ -886,16 +874,29 @@
             this.materialLabel6.Depth = 0;
             this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel6.Location = new System.Drawing.Point(46, 71);
+            this.materialLabel6.Location = new System.Drawing.Point(51, 45);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             this.materialLabel6.Size = new System.Drawing.Size(68, 19);
             this.materialLabel6.TabIndex = 1;
             this.materialLabel6.Text = "Alınmadı";
             // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.Location = new System.Drawing.Point(493, 14);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(190, 19);
+            this.materialLabel8.TabIndex = 3;
+            this.materialLabel8.Text = "Güncel Dolar ve Euro fiyatı:";
+            // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.LightGreen;
+            this.panel9.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel9.Controls.Add(this.materialLabel14);
             this.panel9.Controls.Add(this.materialLabel13);
             this.panel9.Controls.Add(this.materialLabel12);
@@ -906,7 +907,6 @@
             this.panel9.Controls.Add(this.materialLabel10);
             this.panel9.Controls.Add(this.materialSingleLineTextField3);
             this.panel9.Controls.Add(this.materialSingleLineTextField2);
-            this.panel9.Controls.Add(this.materialLabel9);
             this.panel9.Location = new System.Drawing.Point(7, 36);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(402, 141);
@@ -1058,7 +1058,7 @@
             this.materialLabel9.Depth = 0;
             this.materialLabel9.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel9.Location = new System.Drawing.Point(7, 11);
+            this.materialLabel9.Location = new System.Drawing.Point(107, 14);
             this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel9.Name = "materialLabel9";
             this.materialLabel9.Size = new System.Drawing.Size(156, 19);
@@ -1070,12 +1070,14 @@
             this.materialTabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.materialTabControl1.Controls.Add(this.tabPage1);
             this.materialTabControl1.Controls.Add(this.tabPage2);
+            this.materialTabControl1.Controls.Add(this.tabPage3);
+            this.materialTabControl1.Controls.Add(this.tabPage4);
             this.materialTabControl1.Depth = 0;
-            this.materialTabControl1.Location = new System.Drawing.Point(1, 101);
+            this.materialTabControl1.Location = new System.Drawing.Point(9, 101);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(917, 413);
+            this.materialTabControl1.Size = new System.Drawing.Size(917, 408);
             this.materialTabControl1.TabIndex = 18;
             // 
             // tabPage1
@@ -1097,19 +1099,86 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(909, 384);
+            this.tabPage1.Size = new System.Drawing.Size(909, 379);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "-1-";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel19
+            // 
+            this.materialLabel19.AutoSize = true;
+            this.materialLabel19.Depth = 0;
+            this.materialLabel19.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel19.Location = new System.Drawing.Point(180, 211);
+            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel19.Name = "materialLabel19";
+            this.materialLabel19.Size = new System.Drawing.Size(139, 19);
+            this.materialLabel19.TabIndex = 21;
+            this.materialLabel19.Text = "Program kontrolleri";
+            // 
+            // materialLabel18
+            // 
+            this.materialLabel18.AutoSize = true;
+            this.materialLabel18.Depth = 0;
+            this.materialLabel18.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel18.Location = new System.Drawing.Point(37, 211);
+            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel18.Name = "materialLabel18";
+            this.materialLabel18.Size = new System.Drawing.Size(48, 19);
+            this.materialLabel18.TabIndex = 20;
+            this.materialLabel18.Text = "Zar at";
+            // 
+            // materialLabel17
+            // 
+            this.materialLabel17.AutoSize = true;
+            this.materialLabel17.Depth = 0;
+            this.materialLabel17.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel17.Location = new System.Drawing.Point(689, 12);
+            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel17.Name = "materialLabel17";
+            this.materialLabel17.Size = new System.Drawing.Size(101, 19);
+            this.materialLabel17.TabIndex = 19;
+            this.materialLabel17.Text = "Clicker Oyunu";
+            // 
+            // materialLabel16
+            // 
+            this.materialLabel16.AutoSize = true;
+            this.materialLabel16.Depth = 0;
+            this.materialLabel16.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel16.Location = new System.Drawing.Point(348, 12);
+            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel16.Name = "materialLabel16";
+            this.materialLabel16.Size = new System.Drawing.Size(117, 19);
+            this.materialLabel16.TabIndex = 18;
+            this.materialLabel16.Text = "Hesap Makinesi";
+            // 
+            // materialLabel15
+            // 
+            this.materialLabel15.AutoSize = true;
+            this.materialLabel15.Depth = 0;
+            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel15.Location = new System.Drawing.Point(68, 12);
+            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel15.Name = "materialLabel15";
+            this.materialLabel15.Size = new System.Drawing.Size(100, 19);
+            this.materialLabel15.TabIndex = 17;
+            this.materialLabel15.Text = "Login sistemi";
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.panel9);
             this.tabPage2.Controls.Add(this.panel8);
+            this.tabPage2.Controls.Add(this.materialLabel8);
+            this.tabPage2.Controls.Add(this.materialLabel9);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(909, 461);
+            this.tabPage2.Size = new System.Drawing.Size(909, 379);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "-2-";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1126,76 +1195,31 @@
             this.materialTabSelector1.TabIndex = 6;
             this.materialTabSelector1.Text = "materialTabSelector1";
             // 
-            // materialLabel15
+            // tabPage3
             // 
-            this.materialLabel15.AutoSize = true;
-            this.materialLabel15.Depth = 0;
-            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel15.Location = new System.Drawing.Point(68, 12);
-            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel15.Name = "materialLabel15";
-            this.materialLabel15.Size = new System.Drawing.Size(100, 19);
-            this.materialLabel15.TabIndex = 17;
-            this.materialLabel15.Text = "Login sistemi";
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(909, 379);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "-3-";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // materialLabel16
+            // tabPage4
             // 
-            this.materialLabel16.AutoSize = true;
-            this.materialLabel16.Depth = 0;
-            this.materialLabel16.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel16.Location = new System.Drawing.Point(348, 12);
-            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel16.Name = "materialLabel16";
-            this.materialLabel16.Size = new System.Drawing.Size(117, 19);
-            this.materialLabel16.TabIndex = 18;
-            this.materialLabel16.Text = "Hesap Makinesi";
-            // 
-            // materialLabel17
-            // 
-            this.materialLabel17.AutoSize = true;
-            this.materialLabel17.Depth = 0;
-            this.materialLabel17.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel17.Location = new System.Drawing.Point(689, 12);
-            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel17.Name = "materialLabel17";
-            this.materialLabel17.Size = new System.Drawing.Size(101, 19);
-            this.materialLabel17.TabIndex = 19;
-            this.materialLabel17.Text = "Clicker Oyunu";
-            // 
-            // materialLabel18
-            // 
-            this.materialLabel18.AutoSize = true;
-            this.materialLabel18.Depth = 0;
-            this.materialLabel18.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel18.Location = new System.Drawing.Point(37, 211);
-            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel18.Name = "materialLabel18";
-            this.materialLabel18.Size = new System.Drawing.Size(48, 19);
-            this.materialLabel18.TabIndex = 20;
-            this.materialLabel18.Text = "Zar at";
-            // 
-            // materialLabel19
-            // 
-            this.materialLabel19.AutoSize = true;
-            this.materialLabel19.Depth = 0;
-            this.materialLabel19.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel19.Location = new System.Drawing.Point(180, 211);
-            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel19.Name = "materialLabel19";
-            this.materialLabel19.Size = new System.Drawing.Size(139, 19);
-            this.materialLabel19.TabIndex = 21;
-            this.materialLabel19.Text = "Program kontrolleri";
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(909, 379);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "-4-";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 521);
+            this.ClientSize = new System.Drawing.Size(919, 517);
             this.Controls.Add(this.materialTabSelector1);
             this.Controls.Add(this.materialTabControl1);
             this.Name = "Form1";
@@ -1223,6 +1247,7 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1309,6 +1334,8 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel19;
         private MaterialSkin.Controls.MaterialLabel materialLabel18;
         private MaterialSkin.Controls.MaterialLabel materialLabel17;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
     }
 }
 
