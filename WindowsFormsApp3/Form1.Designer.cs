@@ -1185,12 +1185,15 @@ namespace WindowsFormsApp3
             // 
             // materialTabSelector1
             // 
+            this.materialTabSelector1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialTabSelector1.BaseTabControl = this.materialTabControl1;
             this.materialTabSelector1.Depth = 0;
             this.materialTabSelector1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.materialTabSelector1.Location = new System.Drawing.Point(-12, 61);
             this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector1.Name = "materialTabSelector1";
+            this.materialTabSelector1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.materialTabSelector1.Size = new System.Drawing.Size(938, 34);
             this.materialTabSelector1.TabIndex = 6;
             this.materialTabSelector1.Text = "materialTabSelector1";
@@ -1224,6 +1227,7 @@ namespace WindowsFormsApp3
             this.Controls.Add(this.materialTabControl1);
             this.Name = "Form1";
             this.Text = "C# Örnek Programlar";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
